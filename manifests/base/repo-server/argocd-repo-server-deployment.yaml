@@ -18,7 +18,7 @@ spec:
       automountServiceAccountToken: false
       containers:
       - name: argocd-repo-server
-        image: argoproj/argocd:latest
+        image: 750258991887.dkr.ecr.ap-southeast-2.amazonaws.com/argoproj/argocd:v1.5.5
         imagePullPolicy: Always
         command:
         - uid_entrypoint.sh
