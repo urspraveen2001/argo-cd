@@ -21,7 +21,7 @@ spec:
       serviceAccountName: argocd-redis        
       containers:
       - name: redis
-        image: redis:6.2.4-alpine
+        image: 750258991887.dkr.ecr.ap-southeast-2.amazonaws.com/redis:6.2.4-alpine
         imagePullPolicy: Always
         args:
         - "--save"
