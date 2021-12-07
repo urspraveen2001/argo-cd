@@ -111,7 +111,7 @@ spec:
                 name: argocd-cmd-params-cm
                 key: controller.default.cache.expiration
                 optional: true
-        image: quay.io/argoproj/argocd:latest
+        image: 750258991887.dkr.ecr.ap-southeast-2.amazonaws.com/argoproj/argocd:v2.1.2
         imagePullPolicy: Always
         name: argocd-application-controller
         ports:
